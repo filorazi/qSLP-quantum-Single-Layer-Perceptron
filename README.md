@@ -10,7 +10,6 @@ The core idea is to leverage the superposition of the data qubits with multiple 
     - **experiments_qNNC.ipynb**: file to reproduce the qnnc models' performance. If the seed and the starting point are set it reproduces the results obtained in the research
     - **experiments_QSVC.ipynb**: file to reproduce the QSVC model performance. If the seed and the starting point are set it reproduces the results obtained in the research
 - **results**: a folder containing the results of the testing:
-    - **immagini**: picture folder
     - **test_real**: results obtained by the best models in a real quantum environment 
     - **test_simulation**: results obtained by the best models in a simulated environment
     - **training**: all the models trained (qSLP, qNNC, QSVC)
