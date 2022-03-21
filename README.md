@@ -20,8 +20,9 @@ The core idea is to leverage the superposition of the data qubits with multiple 
 
 ## Usage
 The code is organized in three main parts:
-- Training and testing on the simulation are done through the *model_triaining.py* script. Run it and on completion, it writes the results on the *results/training* and *results/test_simulation* folders.
-- Testing on a real device is done through the *real_device_test.py* script. To run it there should be an [IBMQ token](https://quantum-computing.ibm.com/lab/docs/iql/manage/account/ibmq) in the system to have access to the IBM's quantum devices. Results are stored in the folder *results/test_real*.
+- Training and testing on the simulation are done through the *model_triaining.py* script. Run it and on completion, it writes the results on the *results/training* and *results/test_simulation* folders. To run the script simply use 
+  `python Variational_Algorithm_qSLP/model_training.py`
+- Testing on a real device is done through the *real_device_test.py* script. To run it there should be an [IBMQ token](https://quantum-computing.ibm.com/lab/docs/iql/manage/account/ibmq) in the system to have access to the IBM's quantum devices. Results are stored in the folder *results/test_real*. `python Variational_Algorithm_qSLP/real_device_test.py`
 - To run and test the best model of each category refer to the notebooks in the *experimetns_qSLP* folder. There you can choose the specific model of each category to run, obtaining the results shown in the research.
 
 ## Installation
