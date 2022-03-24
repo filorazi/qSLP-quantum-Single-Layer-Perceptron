@@ -1,8 +1,11 @@
 # Quantum single layer perceptron
-This repository contains the first implementation of a quantum single layer perceptron done through the use of the [MAQA Framework]() and the experimental comparison between the proposed model and soma baseline models.
+This repository contains the implementation of the quantum Single Layer Perceptron built on top of the recently proposed 
+[MAQA Framework](https://amsdottorato.unibo.it/9791/). 
 
 ## Description
-The core idea is to leverage the superposition of the data qubits with multiple control qubits to obtain a quantum version of an aggregation of weighted functions. We investigated the performance of various implementations of a quantum single layer perceptron and compared them with three baseline models proposed in the literature: two quantum neural network classifiers and one quantum support vector classifier.
+The quantum Single Layer Perceptron (qSLP) generates an exponentially large number of parametrized linear combinations in superposition that can be learnt using quantum-classical optimization.  As a consequence, the number of hidden neurons scales exponentially with the number of qubits and, thanks to the universal approximation theorem, our algorithm opens to the possibility of approximating any function on quantum computers.
+The repository contains also a comparison between the qSLP as a classification model against two different quantum models on two different real-world datasets usually adopted for benchmarking classical machine learning algorithms (MNIST and Iris).
+
 
 ## Repository structure:
 - **experiments**: folder with the notebooks able to reproduce the experiments. It contains:
