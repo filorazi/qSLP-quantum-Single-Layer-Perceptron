@@ -1,4 +1,4 @@
-# Quantum single layer perceptron
+# Generalized quantum Single Layer Perceptron (qSLP)
 This repository contains the implementation of the quantum Single Layer Perceptron. 
 
 ## Description
