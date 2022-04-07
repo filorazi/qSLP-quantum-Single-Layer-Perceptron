@@ -1,6 +1,5 @@
 # Quantum single layer perceptron
-This repository contains the implementation of the quantum Single Layer Perceptron built on top of the recently proposed 
-[MAQA Framework](https://amsdottorato.unibo.it/9791/). 
+This repository contains the implementation of the quantum Single Layer Perceptron. 
 
 ## Description
 The quantum Single Layer Perceptron (qSLP) generates an exponentially large number of parametrized linear combinations in superposition that can be learnt using quantum-classical optimization.  As a consequence, the number of hidden neurons scales exponentially with the number of qubits and, thanks to the universal approximation theorem, our algorithm opens to the possibility of approximating any function on quantum computers.
