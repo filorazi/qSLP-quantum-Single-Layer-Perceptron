@@ -30,12 +30,11 @@ The code is organized in three main parts:
 To run the code and reproduce the results of the paper, it is recommended to re-create the same testing environment following the procedure below.
 
 *Note: it's assumed Anaconda is installed*
-- First clone the repository: 
- `git clone https://github.com/amacaluso/MAQA.git`
+- First clone the repository
 - Second, create a conda environment from scratch and install the requirements specified in the requirements.txt file:  
     ```
     # enter the repository
-    cd MAQA
+    cd project_folder
 
     # create an environment with desired dependencies found in the requirements.txt file
     conda env create
